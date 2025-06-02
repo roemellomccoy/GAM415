@@ -38,7 +38,7 @@ class AGAM415Projectile : public AActor
 	UPROPERTY()
 	UMaterialInstanceDynamic* dmiMat;
 
-	UPROPERTY()
+	UPROPERTY(EditAnywhere)
 	UNiagaraSystem* colorP;
 
 public:
